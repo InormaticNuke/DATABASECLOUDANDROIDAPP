@@ -44,7 +44,39 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
-            android:contentDescription="Type of animal"/>
+            android:contentDescription="Type of animal"
+
+            />
+
+        <EditText
+            android:id="@+id/mascotOwner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input the owner's name"
+            android:minHeight="48dp"
+            />
+
+        <EditText
+            android:id="@+id/ownerAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input the owner's adress"
+            android:minHeight="48dp"
+            />
+
+        <Button
+            android:onClick="sendDataFirestore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEND DATA"
+            />
+
+        <Button
+            android:onClick="viewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW LIST"
+            />
 
 
 
