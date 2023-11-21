@@ -78,6 +78,13 @@
             android:text="VIEW LIST"
             />
 
+        <ListView
+            android:id="@+id/listShow"
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+
+            />
+
 
 
 
