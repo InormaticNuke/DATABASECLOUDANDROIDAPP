@@ -39,6 +39,13 @@
             android:minHeight="48dp"
             />
 
+        <Spinner
+            android:id="@+id/mascotType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:contentDescription="Type of animal"/>
+
 
 
 
