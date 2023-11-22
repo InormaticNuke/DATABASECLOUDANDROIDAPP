@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         txtOwner =findViewById(R.id.mascotOwner);
         txtAdress = findViewById(R.id.ownerAdress);
 
-        spMascot = findViewById(spMascot);
+        spMascot = findViewById(R.id.mascotType);
         list = findViewById(R.id.listShow);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item,
