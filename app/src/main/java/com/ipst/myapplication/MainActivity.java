@@ -47,6 +47,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void LoadListFirestore(){
+        String ID = txtID.getText().toString();
+        String Name = txtName.getText().toString();
+        String Owner = txtOwner.getText().toString();
+        String Adress = txtAdress.getText().toString();
+
+        String Type = spMascot.getSelectedItem().toString();
+
+
+    }
+
+    public void listShow(){
 
     }
 }
